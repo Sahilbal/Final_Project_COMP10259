@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="sass.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+
+        body{
+            height: 100vh;
+            position: relative;
+        }
+        body::before{
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background-image: url(img/giorgia-doglioni-3GgbJx7hg14-unsplash.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          opacity: 0.19;
+          padding-bottom: 15%;
+        
+    }
+       
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="fish-name">
+                    <!-- Write your species name under the anchor tag -->
+                    <a href="index.html">  Sea Turtle </a>
+                </div>
+         <div class="nav-toggle">
+           <span></span>
+         </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="predators.html">Prey & Predators</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="count.html">World Count</a></li>
+                        <li><a href="honesty.html">Honesty Declaration</a></li>
+                        <li><a href="contactt.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Prey & Predators Section Start -->
+<section class="predators-section" id="predators">
+    <div class="skillrow">
+        <div class="video-container">
+   
+        <iframe width="460" height="315" src="https://www.youtube.com/embed/Gw5m-yAsb-U?si=b1_UV77f2rUFqdnb&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer;autoplay=1s; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="preyss"></iframe></div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6gPGgTjMsaQ?si=OHAOqvZa2AyEgKzN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="predators"></iframe></div>
+        <h3> Prey</h3>
+        <p class="prey">Flatback and olive ridley sea turtles are both omnivores as adults, eating a wide variety of animals and plants. Meanwhile, mature green sea turtles are herbivores that eat plants. Carnivores, loggerhead and Kemp's ridley sea turtles devour other creatures. Gelatinivores are leatherback turtles because they eat gelatinous prey such as jellyfish and sea squirts. Due to their particular diet, which consists almost entirely of sponges, hawksbill sea turtles are frequently referred to as spongivores.
+           </p></div>
+        
+        <div class="skillrow">
+            
+        <h3> Predators</h3>
+        <p class="predator">Often, when we consider dangers to sea turtles, we solely consider pressures originating from humans. However, throughout their life cycles, sea turtles are exposed to a variety of threats from natural predators. Sea turtles face pressure from predators even before they hatch, since many types of crabs, raccoons, foxes, and an endless array of bacteria, insects, mites, and other organisms may attack their nests.</p></div>
+       
+	
+	
+</section>
+<!-- Prey & Predators Section End -->
+<script>
+	$(document).ready(function() {
+    // Assuming your navigation bar has the class 'navbar', you can use the following code
+    $('.header').css('position', 'fixed');
+});
+</script>
+</body>
+</html>

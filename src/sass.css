@@ -1,0 +1,22 @@
+.header .nav ul li a {
+  color: #FF9800;
+}
+
+.header .nav ul li a:hover {
+  color: #ffffff;
+}
+
+.wrapper {
+  border-style: dashed;
+}
+
+.original-button {
+  text-transform: uppercase;
+  position: relative;
+  background-color: red;
+}
+
+.original-button::after {
+  content: "";
+  position: absolute;
+}/*# sourceMappingURL=sass.css.map */
